@@ -3,7 +3,7 @@
   padding: 3px 5px;
 }
 
-.status-bar__column:nth-child(1) {
+.status-bar__column:first-child {
   display: flex;
   justify-content: left;
 }
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.status-bar__column:nth-child(3) {
+.status-bar__column:last-child {
   display: flex;
   justify-content: end;
   align-items: center;
